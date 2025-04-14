@@ -26,7 +26,7 @@
 2. Connect to your server using MySQL CLI or Adminer/phpMyAdmin/etc
 3. Run:
    ```sql
-   SOURCE blitz_diag.sql;
+   SOURCE blitz_base_diag.sql;
 
 This will:
 
