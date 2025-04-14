@@ -48,7 +48,7 @@ SELECT * FROM blitz_diag42.blitz_output ORDER BY section_order;
 
 💡 Notes
 
-    Read-only: This script doesn’t modify your data.
+    Read-only: This script does **not** modify your data.
 
     Designed for quick insights during audits or debugging.
 
