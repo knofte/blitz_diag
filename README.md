@@ -20,6 +20,13 @@
 | Index-to-Data Ratio           | #07 | Highlights potential index bloat or unnecessary indexes                 |
 | Long-Running Queries          | #08 | From performance_schema — slowest queries by total time                 |
 | Root User Access              | #09 | Flags insecure root@% users with empty passwords                        |
+| max_allowed_packet            | #10 | Warns if packet size limit is too low for bulk operations               |
+| table_open_cache Usage        | #11 | Shows table cache performance and miss rates                            |
+| thread_cache_size Efficiency  | #12 | Monitors thread creation overhead and cache effectiveness               |
+| Connection Limit Usage        | #13 | Tracks peak connection usage vs configured maximum                      |
+| Aborted Connections           | #14 | Detects dropped client connections                                      |
+| key_buffer_size (MyISAM)      | #15 | Validates key buffer size against MyISAM index requirements             |
+| Thread Cache Effectiveness    | #16 | Analyzes thread creation patterns for connection-heavy workloads        |
 | Summary                       | —    | Heuristics summary with emoji indicators (✅ / ⚠️)                        |
 
 ---
